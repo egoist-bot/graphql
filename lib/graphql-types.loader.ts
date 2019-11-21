@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import * as glob from 'fast-glob';
+import * as glob from 'fast-glob-bundled';
 import * as fs from 'fs';
 import { flatten } from 'lodash';
 import { mergeTypes } from 'merge-graphql-schemas';
